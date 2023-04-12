@@ -1,0 +1,65 @@
+/* Set the font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Center the form on the page */
+  form {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  /* Style the input labels */
+  div {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style the input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Style the radio and checkbox input fields */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Style the submit and reset buttons */
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Set the hover effect on the buttons */
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style the file input */
+  input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  /* Add some spacing between the elements */
+  br {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
